@@ -86,7 +86,6 @@ def foods_in_common(foods1, foods2):
 
     """
 
-    # sorted the returned list to pass doctest
     return sorted(list(set(foods1) & set(foods2)))
 
 def every_other_item(items):
